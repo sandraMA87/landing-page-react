@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+
+.jumbotron-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    background-color: rgb(189, 160, 248);
+    margin-top: 20px;
+}
+
+.navbar a {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.card-container {
+    display: flex;
+}
